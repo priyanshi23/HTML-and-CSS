@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <title>Form a Story</title>
+  </head>
+  <body>
+    <section id="top">
+      <img
+        src="https://content.codecademy.com/courses/learn-html-forms/formAStoryLogo.svg"
+        alt="Form A Story Logo"
+      />
+    </section>
+
+    <section id="main">
+      <h1>
+        Complete the Form -<br />
+        Complete the Story!
+      </h1>
+      <hr />
+      <!--Add your form below:-->
+      <form action="story.html" method="GET">
+        <input type="submit" vaue="Form My Story!" />
+        <label for="animal-1">Animal:</label>
+        <input id="animal-1" type="text" required />
+        <br />
+        <label for="animal-2">Another Animal:</label>
+        <input id="animal-2" type="text" required />
+        <br />
+        <label for="animal-3">One More Animal:</label>
+        <input id="animal-3" type="text" required />
+        <br />
+        <label for="adj-1">Adjective (ends in -ed):</label>
+        <input id="adj-1" name:"adj-1" type="text" required />
+        <br />
+      </form>
+    </section>
+  </body>
+</html>
