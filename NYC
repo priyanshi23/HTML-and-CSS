@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#Blog">Blog</a></li>
+        <li><a href="#Media">Media</a></li>
+        <li><a href="#About">About</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>New York City </h1>
+      </header>
+      <main>
+        <section id = "blog">
+          <article>
+            <p>A lot about new york city. </p>
+            </article>
+          </section>
+          <figure>
+            <img src="https://content.codecademy.com/courses/Semantic%20HTML/statue-of-liberty.jpeg" >
+            <figcaption>about the image</figcaption>
+            </figure>
+            <aside> <p>more about new york </p> 
+            <ol><li> Pizza</li>   
+                <li>Bagels</li>
+                <li>Burgers and Sandwiches</li>
+                <li>Ramen</li>
+                <li>Tacos</li>
+                <li>Pasta</li>
+                <li>Desserts</li>  </ol>
+            </aside>
+            <section id="media">
+              <article><h2> NYC </h2>
+              <p>more about the city</p> </article>
+              <video src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-skyline-timelapse.mp4" controls>
+              </video>
+              <embed src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-skyline.jpeg">
+              <audio controls src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-sounds.mov">  </audio>
+              </section>
+        </main>
+     <footer id="about">
+       <p>Posted by: me lol </p> </footer>   
+  </body>
+</html>
