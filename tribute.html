@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tribute Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+<header>
+ <h1>Tribute to the families and lives lost in the war</h1>
+ <div class="container" id="img-div">
+          <img src="img1.jpg" alt="Israel Plaestine War" id="img1">
+          <img src="img2.jpg" alt="Russia Ukraine War" id="img2">
+        </div>
+</header>
+  <body> 
+    <main id="main">
+      <figcaption id="img-caption">Images of people who died in war</figcaption>
+      <div>
+          <section id="tribute-info">
+          <p>War is a state of armed conflict between nations, states, societies, or other groups, involving the use of military force and weapons to achieve 
+political, economic, or social objectives. Wars can be fought for various reasons, such as territorial disputes, ideological differences, religious beliefs, or 
+economic interests. They can have devastating consequences, including loss of life, destruction of property, displacement of people, and long-term social and economic 
+impacts. Wars have been a part of human history for thousands of years, and have shaped the course of civilizations and societies. While some wars have been fought 
+for noble causes, such as defending freedom and democracy, others have been driven by greed, power, and aggression. It is important to remember the human cost of war 
+and to work towards peaceful solutions to conflicts.
+</p>
+<p>It is a pity that we live in cosntant state of fear and war with recent Russia-Ukraine and Israel-Palestine War.Through this page i would like to pay homage to those
+innocent lives and families lost </p>
+          <p>In memory of the lives and families lost in war, we pay tribute to the heroes who have sacrificed their lives for the sake of peace and freedom. Our 
+hearts are filled with gratitude and respect for the courage and determination displayed by these brave souls. We honor their memories and celebrate their 
+contributions to the world we live in today. May their sacrifices continue to inspire us to strive for understanding, compassion, and unity among all people.
+</p>
+        </section>
+      </div>
+    </main>
+  </body>
+<footer>
+<h4> If you have time please click on the below link to see the exact stats of all the lives lost in the war</h4>
+        <a href="https://en.wikipedia.org/wiki/List_of_wars_and_anthropogenic_disasters_by_death_toll" target="_blank" id="tribute-link">List of Wars and Anthropogenic Disasters by Death Toll</a>
+</footer>
+</html>
+body {
+  background-color: grey;
+  font-family: Calibri, sans-serif;
+}
+
+#main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+#title {
+  font-size: 30px;
+  color: #333333;
+  text-align: center;
+}
+
+
+ .container img {
+    background-color: white;
+    float: left;
+    width: 50%;
+  }
+
+.container {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+
+
+#img-div {
+  display: block;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#img1,
+#img2 {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.image-container .caption {
+    position: absolute-centre;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: burgundy;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  } 
+
+ #img-caption {
+  text-align: center;
+  font-weight: bold;
+} 
+
+#tribute-info {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#tribute-link {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #F4A460;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+#tribute-link:hover {
+  background-color: #0056b3;
+}
+
+
+
